@@ -58,7 +58,7 @@
     "format": "oxfmt",
     "docs": "typedoc",
     "prepublishOnly": "pnpm run build",
-    "prepare": "pnpm run build"
+    "prepare": "tsdown"
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.3",
